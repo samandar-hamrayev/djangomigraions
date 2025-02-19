@@ -1,0 +1,10 @@
+Djangoda makemigrations va migrate buyrug‘lari ma’lumotlar bazasi
+sxemasini yaratish va yangilash uchun ishlatiladi.
+    makemigrations – Modeldagi o‘zgarishlarni aniqlaydi va ularni migration fayllariga yozadi.
+    migrate – Yaratilgan migration fayllarni ma’lumotlar bazasiga tatbiq qiladi.
+
+Jarayon:
+1.	makemigrations – Modelda o‘zgarish bo‘lsa, migrations/ papkasida yangi fayl yaratadi.
+2.	migrate – Ushbu fayllarni o‘qib, ma’lumotlar bazasiga mos keladigan jadval va ustunlarni yaratadi yoki yangilaydi.
+
+Bu jarayon Django ORM va ma’lumotlar bazasi o‘rtasidagi bog‘lanishni ta’minlaydi.
